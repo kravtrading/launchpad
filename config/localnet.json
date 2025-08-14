@@ -1,0 +1,7 @@
+{
+  "cluster": "localnet",
+  "platformFeePercentage": 250,
+  "minLaunchDuration": 86400,
+  "maxLaunchDuration": 2592000,
+  "minSoftCap": 1000000000
+}

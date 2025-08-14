@@ -1,0 +1,7 @@
+{
+  "cluster": "mainnet-beta",
+  "platformFeePercentage": 250,
+  "minLaunchDuration": 86400,
+  "maxLaunchDuration": 2592000,
+  "minSoftCap": 10000000000
+}
