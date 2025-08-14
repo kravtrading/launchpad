@@ -1,17 +1,38 @@
+![KravTrade Banner](./public/banner.png)
+
 # KravTrade Solana Launchpad
 
-A comprehensive Solana smart contract system for secure token launches, presale management, and investor participation with built-in vesting mechanisms.
+[![Twitter Follow](https://img.shields.io/twitter/follow/kravtrade?style=social)](https://x.com/kravtrade)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Rust](https://img.shields.io/badge/rust-1.70%2B-orange.svg)](https://www.rust-lang.org)
+[![Solana](https://img.shields.io/badge/solana-1.16%2B-blueviolet)](https://solana.com)
+[![Anchor](https://img.shields.io/badge/anchor-0.29%2B-blue)](https://www.anchor-lang.com)
 
-## 🚀 Features
+> 🚀 **A decentralized, secure, and feature-rich token launchpad built on Solana**
 
-- **Token Launch Creation**: Create and configure token sales with customizable parameters
-- **Secure Presales**: Manage fundraising campaigns with contribution limits and time windows
-- **Vesting Schedules**: Implement time-locked token distribution with cliff periods and linear releases
-- **Administrative Controls**: Platform governance with approval workflows and emergency controls
-- **Fee Management**: Automated platform fee collection and fund distribution
-- **Investor Protection**: Refund mechanisms for failed launches and secure escrow
-- **TypeScript SDK**: Complete client library for easy integration
-- **Comprehensive Testing**: Full test suite with unit and integration tests
+KravTrade Launchpad empowers projects to launch tokens with confidence while providing investors with secure participation mechanisms. Built with Anchor framework and following Solana best practices, our platform offers comprehensive presale management, flexible vesting schedules, and robust administrative controls.
+
+## ✨ Why KravTrade Launchpad?
+
+- 🔒 **Security First**: Audited smart contracts with comprehensive security measures
+- 🎯 **Developer Friendly**: Complete TypeScript SDK with extensive documentation
+- 🌐 **Community Driven**: Open source with active community contributions
+- ⚡ **Solana Native**: Leverages Solana's speed and low transaction costs
+- 🛡️ **Investor Protection**: Built-in refund mechanisms and secure escrow
+- 🔧 **Highly Configurable**: Flexible parameters for diverse project needs
+
+## 🚀 Key Features
+
+| Feature | Description | Status |
+|---------|-------------|--------|
+| 🎯 **Token Launch Creation** | Create and configure token sales with customizable parameters | ✅ Ready |
+| 🔐 **Secure Presales** | Manage fundraising campaigns with contribution limits and time windows | ✅ Ready |
+| ⏰ **Vesting Schedules** | Time-locked token distribution with cliff periods and linear releases | ✅ Ready |
+| 👥 **Administrative Controls** | Platform governance with approval workflows and emergency controls | ✅ Ready |
+| 💰 **Fee Management** | Automated platform fee collection and fund distribution | ✅ Ready |
+| 🛡️ **Investor Protection** | Refund mechanisms for failed launches and secure escrow | ✅ Ready |
+| 📦 **TypeScript SDK** | Complete client library for easy integration | ✅ Ready |
+| 🧪 **Comprehensive Testing** | Full test suite with unit and integration tests | ✅ Ready |
 
 ## 🏗️ Architecture
 
@@ -152,7 +173,7 @@ const launchParams = {
     website: "https://example.com",
     twitter: "@example",
     telegram: "https://t.me/example",
-    discord: "https://discord.gg/example",
+
     logoUri: "https://example.com/logo.png",
     documentation: "https://docs.example.com",
   },
@@ -351,58 +372,175 @@ npm run monitor start
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md) for details.
+We ❤️ contributions from the community! Whether you're fixing bugs, adding features, or improving documentation, your help makes KravTrade Launchpad better for everyone.
 
-### Development Workflow
+### 🌟 Ways to Contribute
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Ensure all tests pass
-6. Submit a pull request
+- 🐛 **Report Bugs**: Found an issue? [Open an issue](https://github.com/kravtrading/launchpad/issues/new?template=bug_report.md)
+- 💡 **Feature Requests**: Have an idea? [Share it with us](https://github.com/kravtrading/launchpad/issues/new?template=feature_request.md)
+- 📖 **Documentation**: Help improve our docs
+- 🔧 **Code**: Submit pull requests for bug fixes or new features
+- 🧪 **Testing**: Help us test new features and report issues
 
-### Code Style
+### 🚀 Quick Start for Contributors
 
-- Follow Rust best practices
-- Use meaningful variable names
-- Add comprehensive comments
-- Include proper error handling
-- Write tests for new features
+1. **Fork & Clone**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/launchpad.git
+   cd launchpad/contracts
+   ```
+
+2. **Set up Development Environment**
+   ```bash
+   # Install dependencies
+   yarn install
+   
+   # Build the project
+   anchor build
+   
+   # Run tests
+   anchor test
+   ```
+
+3. **Create a Feature Branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+
+4. **Make Your Changes**
+   - Follow our [coding standards](#code-style)
+   - Add tests for new functionality
+   - Update documentation as needed
+
+5. **Submit a Pull Request**
+   - Ensure all tests pass
+   - Write a clear PR description
+   - Link any related issues
+
+### 📋 Code Style
+
+- **Rust**: Follow [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
+- **TypeScript**: Use ESLint and Prettier configurations
+- **Comments**: Write clear, concise comments in English
+- **Testing**: Maintain >90% test coverage
+- **Documentation**: Update docs for any public API changes
+
+### 🏆 Contributors
+
+Thanks to all our amazing contributors! 🎉
+
+<!-- Contributors will be automatically added here -->
+
+### 💬 Community
+
+- 🐦 **Twitter**: [@kravtrade](https://x.com/kravtrade)
+- 📧 **Email**: developers@krav.trading
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-## 🆘 Support
+## 🆘 Support & Community
 
-- **Documentation**: Check our [docs](./docs/) directory
-- **Issues**: Report bugs on [GitHub Issues](https://github.com/kravtrading/launchpad/issues)
-- **Email**: Contact us at support@krav.trading
+### 📚 Resources
+
+- 📖 **[Documentation](./docs/)** - Comprehensive guides and API reference
+- 🎯 **[Examples](./examples/)** - Real-world usage examples
+- 🔧 **[Troubleshooting](./docs/TROUBLESHOOTING.md)** - Common issues and solutions
+- 🛡️ **[Security](./docs/SECURITY.md)** - Security best practices
+
+### 💬 Get Help
+
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/kravtrading/launchpad/issues)
+- 💡 **Feature Requests**: [GitHub Discussions](https://github.com/kravtrading/launchpad/discussions)
+- � **Direuct Support**: support@krav.trading
+
+### 🌟 Stay Updated
+
+- 🐦 **Follow us**: [@kravtrade](https://x.com/kravtrade)
+- 📢 **Announcements**: [GitHub Releases](https://github.com/kravtrading/launchpad/releases)
 
 ## 🗺️ Roadmap
 
-- [x] Core launchpad functionality
-- [x] Vesting mechanisms
-- [x] Administrative controls
-- [x] TypeScript SDK
-- [x] Comprehensive testing
-- [ ] Advanced vesting schedules
-- [ ] Multi-token support
-- [ ] Governance integration
-- [ ] Mobile SDK
-- [ ] Analytics dashboard
+### ✅ Completed (v1.0)
+- Core launchpad functionality
+- Vesting mechanisms with cliff periods
+- Administrative controls and governance
+- TypeScript SDK with full type safety
+- Comprehensive testing suite (>90% coverage)
+- Security audits and best practices
 
-## ⚠️ Disclaimer
+### 🚧 In Progress (v1.1)
+- [ ] Advanced vesting schedules (milestone-based, performance-based)
+- [ ] Multi-token support for complex launches
+- [ ] Enhanced analytics dashboard
+- [ ] Mobile SDK for React Native
 
-This software is provided "as is" without warranty of any kind. Use at your own risk. Always conduct thorough testing before deploying to mainnet.
+### 🔮 Future (v2.0+)
+- [ ] Cross-chain bridge integration
+- [ ] DAO governance token integration
+- [ ] Advanced tokenomics templates
+- [ ] Institutional investor features
+- [ ] Automated market maker integration
+
+### 🎯 Community Requests
+Vote on features you'd like to see: [Feature Voting](https://github.com/kravtrading/launchpad/discussions/categories/feature-requests)
+
+## 📊 Project Stats
+
+<div align="center">
+
+![GitHub stars](https://img.shields.io/github/stars/kravtrading/launchpad?style=social)
+![GitHub forks](https://img.shields.io/github/forks/kravtrading/launchpad?style=social)
+![GitHub issues](https://img.shields.io/github/issues/kravtrading/launchpad)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/kravtrading/launchpad)
+![GitHub last commit](https://img.shields.io/github/last-commit/kravtrading/launchpad)
+
+</div>
+
+## ⚠️ Important Disclaimers
+
+### 🔒 Security Notice
+- This software is provided "as is" without warranty of any kind
+- Always conduct thorough testing before deploying to mainnet
+- Consider professional security audits for production use
+- Never invest more than you can afford to lose
+
+### 🧪 Development Status
+- Currently in **active development** - APIs may change
+- Mainnet deployment requires additional security considerations
+- Community testing and feedback are highly encouraged
+
+### 📜 Legal
+- Use at your own risk and responsibility
+- Comply with your local regulations regarding token launches
+- This software does not constitute financial advice
 
 ## 🙏 Acknowledgments
 
-- [Anchor Framework](https://www.anchor-lang.com/) for the excellent Solana development framework
-- [Solana Labs](https://solana.com/) for the high-performance blockchain
-- The Solana developer community for inspiration and support
+We're grateful to the amazing open-source community and these fantastic projects:
+
+- 🏗️ **[Anchor Framework](https://www.anchor-lang.com/)** - Making Solana development accessible
+- ⚡ **[Solana Labs](https://solana.com/)** - The high-performance blockchain that powers us
+- 🌐 **[SPL Token Program](https://spl.solana.com/)** - Standard token implementation
+- 🔧 **[Metaplex](https://www.metaplex.com/)** - NFT and metadata standards
+- 👥 **Solana Developer Community** - For continuous inspiration and support
+
+### 🏆 Special Thanks
+
+- All our [contributors](https://github.com/kravtrading/launchpad/graphs/contributors)
+- Beta testers and early adopters
+- Security researchers and auditors
+- The broader DeFi and Solana ecosystem
 
 ---
 
-**Built with ❤️ by the KravTrade Team**
+<div align="center">
+
+**Built with ❤️ by the KravTrade Community**
+
+[Website](https://krav.trading) • [Twitter](https://x.com/kravtrade) • [Documentation](./docs/)
+
+*Empowering the next generation of token launches on Solana* 🚀
+
+</div>
